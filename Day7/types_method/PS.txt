@@ -1,0 +1,9 @@
+Types of Methods Practice #1
+Create a static method: breathe() for the Pet class. When called, it should print to the screen "Inhale... Exhale"
+
+Types of Methods Practice #2
+Create a class method called revive() that acts on the Player class's alive attribute, setting it to True each time it is invoked. The default value of the alive attribute should be False.
+
+Types of Methods Practice #3
+Create an instance method throw_arrow() that subtracts by -1 the number of arrows a Character instance has, which in turn has an instance attribute called arrows_amount (that stores a certain number).
+
