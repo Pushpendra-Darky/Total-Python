@@ -1,0 +1,10 @@
+Datetime Module Practice #1
+Create a date object called february_date that stores February 3, 1999
+
+Datetime Module Practice #2
+Create an object in the today_date variable that always stores the current date when it is called.
+
+Datetime Module Practice #3
+In a variable called current_minutes, store only the minutes of the current time.
+
+For example, if it were executed at 20:43:17, the current_minutes variable should store the value 43

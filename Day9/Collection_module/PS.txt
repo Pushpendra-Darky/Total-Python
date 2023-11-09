@@ -1,0 +1,26 @@
+Collections Module Practice #1
+Apply a Counter to the list of numbers given below, and store it in a variable called my_counter
+
+Collections Module Practice #2
+Create a dictionary called my_dictionary, for which, when a searched keyword is not found, it is loaded with the string "Value not found".
+
+Load the dictionary with at least the following data pairs:
+
+keyword = age
+
+value = 44
+
+Use the defaultdict method of the Collections module.
+
+
+Collections Module Practice #3
+A double-ended queue or deque is a linear data structure that allows elements to be inserted and deleted at both ends.
+
+Find out more about it on any documentation site, and then implement a deque from the collections module. The initial elements of the list are provided below.
+
+["London", "Berlin", "Paris", "Madrid", "Rome", "Moscow"]
+
+The list must have the ability to incorporate elements from the left, and be named cities_list.
+
+
+

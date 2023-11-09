@@ -1,0 +1,11 @@
+RegEx Practice #1
+Create a function called check_email to check if an email address is correct, which checks if the email given as argument contains "@" and ends with ".com".
+
+If the pattern is found, the function should end displaying the "Ok" message, but if it detects that the given parameter does not contain the indicated elements, it should inform the user "The email address is incorrect" by printing the message on the screen.
+
+
+RegEx Practice #2
+Create a function called check_greeting to check if a phrase given as an argument starts with the word "Hello". If the pattern is found, the function should end by displaying the message "Ok", but if it detects that the phrase does not contain "Hello", it should inform the user "You didn't say hello" by printing the message to the screen.
+
+RegEx Practice #3
+The postal code of a given region is formed from two alphanumeric characters and four numeric characters after that (example: XX1234). Create a function, called check_pc to check if the zip code passed as an argument follows this pattern. If the pattern is correct, show the user the message "Ok", otherwise: "The zip code entered is not correct".
