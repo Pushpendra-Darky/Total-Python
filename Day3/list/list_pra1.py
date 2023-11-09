@@ -1,0 +1,1 @@
+my_list = ['a',10,True,"str",-2.5]

@@ -1,0 +1,24 @@
+Lists Practice #1
+Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc.
+
+
+Lists Practice #2
+Add the element "motorcycle" to the following list of means of transportation:
+
+transportation_means = ["plane", "car", "ship", "bicycle"]
+
+You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
+
+
+Lists Practice #3
+Use the pop() method to remove the third item from the following list called fruits, and store it in a variable called deleted_item. Use list methods without altering the line of code already supplied.
+
+apple
+
+banana
+
+mango
+
+cherry
+
+watermelon
