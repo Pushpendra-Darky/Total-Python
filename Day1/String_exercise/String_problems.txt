@@ -1,0 +1,30 @@
+String Practice #1
+Write Python code that prints the following, by calling the print function just once:
+
+Line 1
+Line 2
+Line 3
+Note: So that we can automate some tests of your code, we ask you to pay close attention to the text you have to reproduce, nothing more, nothing less. Take care not to overlook spelling and punctuation, and avoid unnecessary line breaks or extra white spaces, or any other of the like for that matter, that can cause unexpected errors that are not always detected by the evaluation module, returning an error in your exercise.
+
+String Practice #2
+Write Python code that prints the following:
+
+A	B	C
+D	E	F
+G	H	I
+Notes:
+
+- Pay close attention: the horizontal distance between letters' been made by using tabs.
+
+- You can call the print function one or more times
+
+Note: So that we can automate some tests of your code, we ask you to pay close attention to the text you have to reproduce, nothing more, nothing less. Take care not to overlook spelling and punctuation, and avoid unnecessary line breaks or extra white spaces, or any other of the like for that matter, that can cause unexpected errors that are not always detected by the evaluation module, returning an error in your exercise.
+
+
+String Practice #3
+Write Python code that prints the following:
+
+Backslash (\)
+Forward Slash (/)
+Note: So that we can automate some tests of your code, we ask you to pay close attention to the text you have to reproduce, nothing more, nothing less. Take care not to overlook spelling and punctuation, and avoid unnecessary line breaks or extra white spaces, or any other of the like for that matter, that can cause unexpected errors that are not always detected by the evaluation module, returning an error in your exercise.
+

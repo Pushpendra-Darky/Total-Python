@@ -1,0 +1,132 @@
+Note for the Next Lesson
+In the next lesson we are going to install and import several new libraries. Some people have reported some problems with one of them in particular (either when installing it, or when implementing it in the next lesson).
+
+I invite you to continue with the next lesson. If everything goes well, go ahead. But if you encounter an error that you don't know how to solve, come back to this article, where I will share with you possible solutions. Good luck!
+
+
+
+Problems with Flask
+If you receive the following error message when executing the "Transform Voice to Text" lesson code:
+
+ModuleNotFoundError: No module named 'flask'
+
+This is simply solved by installing the Flask library with the following command:
+
+pip install flask
+
+
+
+Problems with PyAudio
+Aunque no vamos a instalar manualmente la biblioteca PyAudio, sí vamos a instalar otra biblioteca (SpeechRecognition) que al ejecutarse se encarga de instalar PyAudio sin que lo veamos en pantalla.
+
+Curiosamente PyAudio no siempre se instala como corresponde y esto le está trayendo dolores de cabeza a más de un estudiante.
+
+Si al ejecutar el código de la lección "Transformar Voz en Texto" recibes el siguiente mensaje de error:
+
+
+
+Although we are not going to manually install the PyAudio library, we are going to install another library (SpeechRecognition) which, when executed, installs PyAudio without us seeing it on screen.
+
+Curiously, PyAudio is not always installed properly and this is causing headaches for more than one student.
+
+If you get the following error message when executing the "Transform Speech to Text" lesson code:
+
+AttributeError("Could not find PyAudio; chack installation")
+
+in that case, the way to solve it is to install PyAudio manually, but this doesn't always work as it should, so here we are going to share with you all the different solutions that we know.
+
+Try each of them in order until one of them works for you.
+
+
+
+Solution 1
+
+Open CMD on Windows (or Terminal on Mac) and type the following:
+
+pip install PyAudio
+
+
+
+Solution 2
+
+1 - In PyCharm go to File / Settings / Project: Python / Python Interpreter
+
+2 - Click on +
+
+3 - In the search bar type "PyAudio".
+
+4 - Select PyAudio from the list and click on Install Package
+
+
+
+Solution 3
+
+Open CMD on Windows (or Terminal on Mac) and type the following:
+
+pip install pipwin
+
+pipwin install PyAudio
+
+
+
+Solution 4
+
+1 - In PyCharm go to View / Tool Windows / Terminal
+
+2 - Type the following:
+
+pip install pipwin
+
+pipwin install PyAudio
+
+
+
+Solution 5
+
+This is the least "clean" solution, but at this point, you will have to get your hands dirty.
+
+1 - Make sure you know which version of Python you have installed. You can check this by typing the following in CMD or in the Terminal:
+
+python --version
+
+You will get, for example:
+
+Python 3.10.0
+
+2 - Check which version of Python you have installed (32-bit or 64-bit). The easiest way is to type the following in CMD or in the terminal:
+
+python
+
+In this way you will get, among other information, something like the following, which is shown in my case:
+
+MSC v.1927 64 bit (AMD64)] on win32
+
+What is important is what is highlighted in brackets. Take note of what you get when you do it yourself.
+
+3 - According to the above, on my computer I would need to install a 64-bit (win_amd64) version of PyAudio for Python 3.10 (310). Again, it may not be the same version you need.
+
+4 - Go to this link, and go to the heading that says PyAudio: bindings for the PortAudio library.
+
+5 - There you will find listed several files that are used to replace the version of PyAudio provided by PyPi. You must choose the one that corresponds to your computer and your version of Python (according to the data I showed you how to collect in points 1 and 2 of this solution).
+
+In my case I would have to download the following version:
+
+PyAudio‑0.2.11‑cp310‑cp310‑win_amd64.whl
+
+Download the one you need as verified in points 1 and 2.
+
+6. Locate the download folder where the file was downloaded. For example in my case:
+
+C:\Users\Win10\Downloads
+
+7. Open the CMD or the Terminal and type:
+
+cd C:\Users\Usuario\Downloads
+
+8. Then type the following in the terminal:
+
+pip install PyAudio-0.2.11-cp39-cp39-win_amd64.whl
+
+(you must replace the name of the downloaded file with the one you have downloaded).
+
+9. This will install PyAudio and solve your problem.

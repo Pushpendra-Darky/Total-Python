@@ -1,0 +1,1 @@
+print("Learning with 'TOTAL Python' is super fun!")
