@@ -1,0 +1,9 @@
+Round Practice #1
+Round the result of the division 10/3 to a number with 2 decimal places, and print the rounded value on the screen.
+
+Round Practice #2
+Round the number 10.676767 to the nearest integer, and print the result.
+
+
+Round Practice #3
+Calculate the square root of 5, and print the result rounded to 4 decimal places.

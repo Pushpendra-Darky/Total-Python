@@ -1,0 +1,10 @@
+Data Type Conversions Practice #1
+Convert the value of num1 to an integer and print the resulting data type.
+
+Data Type Conversions Practice #2
+Convert the value of num2 to a float and print the resulting data type.
+
+Data Type Conversions Practice #3
+Add the values of num1 and num2.
+
+Do not modify the value of variables already declared, but apply the necessary conversions within the print() function

@@ -1,0 +1,25 @@
+Strings Formatting Practice #1
+We need to print the associate name and number within the following sentence:
+
+"Dear (associate_name), your associate number is: (associate_number)"
+
+Remember that the precision of your answer (spaces, spelling and punctuation) is very important to arrive at the correct result.
+
+
+Strings Formatting Practice #2
+Tell the user the amount of points earned within the following phrase:
+
+"You have earned (new_points) points! In total, you have accumulated (total_points) points"
+
+Remember that the precision of your answer (spaces, spelling and punctuation) is very important to arrive at the correct result.
+
+
+
+Strings Formatting Practice #3
+Tell the user the amount of points earned within the following phrase:
+
+"You have earned (new_points) points! In total, you have accumulated (total_points) points"
+
+This time, the amount of points accumulated (total_points) will be equal to the previous_points plus the new_points.
+
+Remember that the precision of your answer (spaces, spelling and punctuation) is very important to arrive at the correct result.

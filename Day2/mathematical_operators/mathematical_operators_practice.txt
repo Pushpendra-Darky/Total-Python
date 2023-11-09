@@ -1,0 +1,10 @@
+Mathematical Operators Practice #1
+Print on the screen the floor division of the following two numbers: 874 divided by 27
+
+
+
+Mathematical Operators Practice #2
+Print on the screen the modulus of 456 divided by 33
+
+Mathematical Operators Practice #3
+Calculate and print the square root of 783
