@@ -1,0 +1,10 @@
+Files & Functions Practice #1
+Create a function called open_read() that opens a file indicated as a parameter, and returns its content (read).
+
+Files & Functions Practice #2
+Create a function called overwrite() that opens a file indicated as a parameter, and overwrites any previous content with the text "content deleted"
+
+
+Files & Functions Practice #3
+Create a function called log_error() that opens a file given as a parameter, and updates it by adding a line at the end that says "an execution error has been registered". Finally, you need to close the file.
+

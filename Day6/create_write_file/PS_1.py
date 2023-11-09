@@ -1,0 +1,6 @@
+my_file = open('my_file.txt','w')
+my_file.write("New text")
+my_file.close()
+my_file = open('my_file.txt','r')
+print(my_file.read())
+my_file.close()

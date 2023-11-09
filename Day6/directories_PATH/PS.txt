@@ -1,0 +1,18 @@
+Path Practice #1
+Store in the base_path variable, a Path object that points to the user's base directory.
+
+Remember to import Path from the pathlib module, and use the home() method
+
+Path Practice #2
+Implement and create a relative path that allows us to reach the file path_practice.py from the following folder structure:
+
+
+Store that directory in the my_path variable. Don't forget to import Path.
+
+Path Practice #3
+Implement and create an absolute path that allows us to reach the file path_practice.py from the following folder structure:
+
+
+Store the path obtained in the my_path variable. Don't forget to import Path, and to concatenate the Path object that refers to the user's base folder.
+
+

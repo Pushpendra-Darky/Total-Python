@@ -1,0 +1,15 @@
+Open and Manipulate Files Practice #1
+Open the file my_text.txt and print its content.
+
+Note: assume that the file is saved in the same folder where your code is located
+
+Open and Manipulate Files Practice #2
+Print the first line of the my_text.txt file
+
+Don't forget to open the file and close it after reading it.
+
+Note: assume that the file is saved in the same folder where your code is located
+
+
+Open and Manipulate Files Practice #3
+Open the file my_text.txt and print only the second line.
