@@ -1,0 +1,17 @@
+Generators Practice #1
+Create a generator (stored in the practice_generator variable) that is capable of returning an infinite sequence of numbers, starting from 1, and returning a higher consecutive number each time it is called using next.
+
+Generators Practice #2
+Create a generator (stored in the variable practice_generator) that is capable of returning multiples of 7 indefinitely, starting from 7 itself, and that each time it is called returns the next multiple (7, 14, 21, 28... ).
+
+Create a generator that subtracts the lives of a video game character one by one, and returns a message each time it is called:
+
+"You have 3 lives left"
+
+"You have 2 lives left"
+
+"You have 1 live left"
+
+"Game Over"
+
+Store the generator in the variable lose_live

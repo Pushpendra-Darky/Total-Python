@@ -1,0 +1,32 @@
+Error Handling Practice #1
+In the previous lesson we have seen how error handling is usually implemented in Python. For this exercise, however, I'll need you to do it in a slightly different way so that it can be tested: you'll need to implement it INSIDE the function. In the form of a comment, you will see an example resolution. Keep in mind, however, that the preferred form is the one we've seen in class.
+
+
+
+For the following sum_num() function, implement a simple error handler that, in case of any error, prints the message: "Unexpected error" on the screen. Otherwise, it should limit itself to displaying the result of the sum between the two numbers given as arguments.
+
+Error Handling Practice #2
+In the previous lesson we have seen how error handling is usually implemented in Python. For this exercise, however, I'll need you to do it in a slightly different way so that it can be tested: you'll need to implement it INSIDE the function. In the form of a comment, you will see an example resolution. Keep in mind, however, that the preferred form is the one we've seen in class.
+
+For the following division() function, implement an error handler:
+
+In the event of a type error (TypeError), the message should be printed on the screen: "Arguments must be numbers"
+
+If a division by zero is attempted (error of type ZeroDivisionError), the message displayed should be: "Second argument must not be zero"
+
+In the event that an error does not occur, it should limit itself to printing the result of the quotient (division) between the two numbers given as an argument.
+
+
+
+Error Handling Practice #3
+In the previous lesson we have seen how error handling is usually implemented in Python. For this exercise, however, I'll need you to do it in a slightly different way so that it can be tested: you'll need to implement it INSIDE the function. In the form of a comment, you will see an example resolution. Keep in mind, however, that the preferred form is the one we've seen in class.
+
+Implement an error handler inside the following function, open_file():
+
+If the file you are trying to open cannot be found (FileNotFoundError), display the message: "The file was not found"
+
+In case another type of error occurs, display the message: "Unknown error"
+
+If no error occurs, print to screen: "Opening successfully"
+
+In all cases, at the end, print: "Ending execution"
